@@ -1,11 +1,12 @@
 name: Run RSpec
 
-on:
-  push:
-    branches:
-      - master
-  pull_request: {}
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   push:
+#     branches:
+#       - master
+#   pull_request: {}
+# 
 jobs:
   test:
     runs-on: ubuntu-latest
